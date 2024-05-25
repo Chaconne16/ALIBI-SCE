@@ -32,6 +32,13 @@ python setup.py install
 
 ## Training
 
+### ALIBI + SCE
+
+python train_cifar_alibi.py --dataset "CIFAR100" --arch "wide-resnet" --seed 11337 --gpu 0 --lr 0.0037 --weight_decay 33.5e-4 --sigma 0.3492 --epochs 150 --alpha 0.7
+
+privacy cost = 2 * sqrt(2) / sigma
+alpha is the coefficient of the CE term in SCE
+
 ### PATE
 PATE model is trained in 3 stages. Below are example commands with hyperparameters we used.
 
