@@ -1,6 +1,6 @@
 # Antipodes of Label Differential Privacy: PATE and ALIBI
 
-This repository is the official implementation of [Antipodes of Label Differential Privacy: PATE and ALIBI](https://arxiv.org/abs/2106.03408).
+This repository combines [ALIBI](https://arxiv.org/abs/2106.03408) and SCE to implement label dp.
 
 ## Citation
 ```bibtex
